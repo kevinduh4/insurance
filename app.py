@@ -29,6 +29,7 @@ def run_crawler():
     trend_data.to_csv(trend_file)
     
     # 假設已爬取 PTT 或 Google Maps 評論
+    
     reviews = [
         "這家保險公司賠償很快，服務態度很好",
         "理賠超慢，完全爛透了",
